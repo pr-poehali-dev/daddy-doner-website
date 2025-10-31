@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Bebas+Neue&family=Anton&family=Rubik:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 220 40% 10%;
-    --foreground: 0 0% 98%;
+    --background: 190 45% 25%;
+    --foreground: 40 20% 92%;
 
-    --card: 220 35% 15%;
-    --card-foreground: 0 0% 98%;
+    --card: 190 40% 20%;
+    --card-foreground: 40 20% 92%;
 
-    --popover: 220 35% 15%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 190 40% 20%;
+    --popover-foreground: 40 20% 92%;
 
-    --primary: 22 95% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 25 100% 55%;
+    --primary-foreground: 190 45% 15%;
 
-    --secondary: 2 85% 60%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 5 85% 55%;
+    --secondary-foreground: 40 20% 92%;
 
-    --muted: 220 30% 20%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 190 35% 30%;
+    --muted-foreground: 40 15% 70%;
 
-    --accent: 22 95% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 40 35% 85%;
+    --accent-foreground: 190 45% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 40 20% 92%;
 
-    --border: 220 25% 25%;
-    --input: 220 25% 25%;
-    --ring: 22 95% 55%;
+    --border: 190 30% 35%;
+    --input: 190 30% 35%;
+    --ring: 25 100% 55%;
 
-    --radius: 0.75rem;
+    --radius: 0.25rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -108,6 +108,23 @@
   h4,
   h5,
   h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Bebas Neue", "Anton", sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .retro-text {
+    font-family: "Permanent Marker", cursive;
+    text-transform: none;
+  }
+
+  .retro-pattern {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.03) 10px,
+      rgba(255, 255, 255, 0.03) 20px
+    );
   }
 }

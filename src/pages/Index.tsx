@@ -66,7 +66,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b-4 border-primary retro-pattern">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -115,15 +115,17 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in">
-              <Badge className="bg-secondary text-secondary-foreground">🔥 Открыто до 2:00</Badge>
+              <Badge className="bg-secondary text-secondary-foreground text-lg">🔥 Открыто до 2:00</Badge>
               <h2 className="text-5xl md:text-7xl font-bold leading-tight">
-                Самый сочный
-                <span className="text-primary"> денер</span>
-                <br />в городе
+                Вертел я...
+                <span className="text-primary"> ваш голод!</span>
               </h2>
-              <p className="text-xl text-muted-foreground">
-                Свежие ингредиенты, щедрые порции и легендарные соусы. 
-                Готовим с любовью уже 5 лет!
+              <p className="text-2xl retro-text text-accent-foreground mt-4">
+                «Здесь самый сочный дёнер с 90-х»
+              </p>
+              <p className="text-lg text-muted-foreground mt-2">
+                Щедрые порции, легендарные соусы и атмосфера ретро-гаража. 
+                Вертел я правила — только рецепты!
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg">
@@ -162,15 +164,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="promos" className="py-16 px-4 bg-card/50">
+      <section id="promos" className="py-16 px-4 bg-card/50 retro-pattern">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <Badge className="mb-4 bg-primary text-primary-foreground">🎉 Акции</Badge>
+            <Badge className="mb-4 bg-secondary text-secondary-foreground text-lg">🎉 Жгучие предложения</Badge>
             <h3 className="text-4xl md:text-5xl font-bold mb-4">
-              Специальные предложения
+              Вертел я... эти цены!
             </h3>
-            <p className="text-xl text-muted-foreground">
-              Выгодные акции каждый день
+            <p className="text-xl text-accent-foreground retro-text">
+              Горячие акции как в 90-е
             </p>
           </div>
 
@@ -204,12 +206,12 @@ const Index = () => {
       <section id="gallery" className="py-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <Badge className="mb-4 bg-primary text-primary-foreground">📸 Галерея</Badge>
+            <Badge className="mb-4 bg-primary text-primary-foreground text-lg">📸 Видеосалон вкуса</Badge>
             <h3 className="text-4xl md:text-5xl font-bold mb-4">
-              Наши блюда
+              Вертел я... смотри что готовим!
             </h3>
-            <p className="text-xl text-muted-foreground">
-              Каждое фото — это маленький шедевр
+            <p className="text-xl text-accent-foreground retro-text">
+              Кассета «Хиты гаража»
             </p>
           </div>
 
@@ -235,15 +237,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="reviews" className="py-16 px-4 bg-card/50">
+      <section id="reviews" className="py-16 px-4 bg-card/50 retro-pattern">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <Badge className="mb-4 bg-primary text-primary-foreground">⭐ Отзывы</Badge>
+            <Badge className="mb-4 bg-secondary text-secondary-foreground text-lg">⭐ Гостевая книга</Badge>
             <h3 className="text-4xl md:text-5xl font-bold mb-4">
-              Что говорят гости
+              Вертел я... послушай народ!
             </h3>
-            <p className="text-xl text-muted-foreground">
-              Более 10 000 довольных клиентов
+            <p className="text-xl text-accent-foreground retro-text">
+              10k+ друзей гаража
             </p>
           </div>
 
@@ -273,7 +275,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="py-12 px-4 border-t border-border">
+      <footer className="py-12 px-4 border-t-4 border-primary retro-pattern">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -283,8 +285,8 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-bold">Вертел я...</h4>
               </div>
-              <p className="text-muted-foreground">
-                Самый вкусный денер в городе с 2019 года
+              <p className="text-accent-foreground retro-text text-sm">
+                Вертел я правила — только рецепты с 1999
               </p>
             </div>
             
