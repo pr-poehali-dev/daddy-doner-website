@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Bebas+Neue&family=Anton&family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 190 45% 25%;
-    --foreground: 40 20% 92%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
-    --card: 190 40% 20%;
-    --card-foreground: 40 20% 92%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
 
-    --popover: 190 40% 20%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 25 100% 55%;
-    --primary-foreground: 190 45% 15%;
+    --primary: 27 96% 61%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 5 85% 55%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 190 35% 30%;
-    --muted-foreground: 40 15% 70%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 40 35% 85%;
-    --accent-foreground: 190 45% 15%;
+    --accent: 27 96% 61%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 20% 92%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 190 30% 35%;
-    --input: 190 30% 35%;
-    --ring: 25 100% 55%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 27 96% 61%;
 
-    --radius: 0.25rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -99,7 +99,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Rubik", sans-serif;
+    font-family: "Nunito", sans-serif;
   }
 
   h1,
@@ -108,23 +108,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Bebas Neue", "Anton", sans-serif;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
-  .retro-text {
-    font-family: "Permanent Marker", cursive;
-    text-transform: none;
-  }
-
-  .retro-pattern {
-    background-image: repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 10px,
-      rgba(255, 255, 255, 0.03) 10px,
-      rgba(255, 255, 255, 0.03) 20px
-    );
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
   }
 }
