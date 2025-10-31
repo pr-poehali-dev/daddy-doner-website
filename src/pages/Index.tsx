@@ -73,7 +73,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-2xl">🌯</span>
               </div>
-              <h1 className="text-2xl font-bold text-foreground">ДядяДенер</h1>
+              <h1 className="text-2xl font-bold text-foreground">Вертел я...</h1>
             </div>
             
             <div className="hidden md:flex items-center gap-6">
@@ -281,7 +281,7 @@ const Index = () => {
                 <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                   <span className="text-2xl">🌯</span>
                 </div>
-                <h4 className="text-xl font-bold">ДядяДенер</h4>
+                <h4 className="text-xl font-bold">Вертел я...</h4>
               </div>
               <p className="text-muted-foreground">
                 Самый вкусный денер в городе с 2019 года
@@ -333,7 +333,7 @@ const Index = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-            <p>© 2024 ДядяДенер. Все права защищены.</p>
+            <p>© 2024 Вертел я... Все права защищены.</p>
           </div>
         </div>
       </footer>
